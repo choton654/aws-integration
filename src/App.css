@@ -1,0 +1,74 @@
+.App {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.imagePreview {
+  position: relative;
+  width: 200px;
+}
+
+.imagePreview img {
+  width: 100%;
+}
+
+.imagePreview button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+form > * {
+  margin: 10px 0;
+}
+
+img {
+  max-width: 400px;
+  margin: auto;
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #eeeeee;
+  border: 2px dashed #424242;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropzone:hover {
+  border: 3px dashed skyblue;
+  cursor: pointer;
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+model-viewer {
+  height: 320px;
+  width: 380px;
+  background-color: #eeeeee;
+  border: none;
+}
